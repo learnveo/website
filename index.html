@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnVeo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>LearnVeo</h1>
+            <img src="https://ik.imagekit.io/tovuwazhze/LearnVeo/logo-crop.png?updatedAt=1761389006004" alt="">
+            <nav>
+                <button><a href="#contact">Contact Us</a></button>
+            </nav>
+        </header>
+        <div class="hero">
+            <div class="hero-text">
+                <h2>Learn <span id="typetxt"></span></h2>
+                <p>Digital Skills, Simplified.</p>
+                <button><a href="#courses">Explore Courses</a></button>
+            </div>
+        </div>
+        <div class="courses" id="courses">
+            <h3>Our Courses</h3>
+            <div id="data-output" class="cards">
+    </div>
+        </div>
+        <div class="contact" id="contact">
+            <h3>Contact Us</h3>
+            <form action="https://api.web3forms.com/submit" method="POST" id="form">
+                <input type="hidden" name="access_key" value="562a75c7-04e8-4bc0-9251-ba33a0e7b356">
+                <input placeholder="Enter your Name" type="text" name="name" required>
+                <input placeholder="Enter your Email" type="email" name="email" required>
+                <textarea placeholder="Enter your Message" name="message" required></textarea>
+                <button type="submit">Submit Message</button>
+            </form>
+            <div class="contact-info">
+                <a href="mailto:learnveo@gmail.com">Email: learnveo@gmail.com</a>
+                <a href="tel:+91-9084112299">Phone: +91-9084112299</a>
+            </div>
+            <div class="social-media">
+                <a href="https://www.instagram.com/learnveo/" target="_blank">Instagram</a>
+                <a href="https://www.youtube.com/@LearnVeo" target="_blank">YouTube</a>
+                <a href="https://www.facebook.com/learnveo" target="_blank">Facebook</a>
+
+            </div>
+        </div>
+        <div class="about">
+            <h3>About LearnVeo<br><i>Digital Skills, Simplified.</i></h3>
+            <p>LearnVeo is a modern e-learning platform designed to make digital education easy, practical, and affordable for everyone.</p>
+            <p>Founded by Harshvardhan Chauhan, a self-taught developer and designer, LearnVeo helps students, creators, and professionals master essential tech skills through clear lessons, real examples, and hands-on learning — all at the lowest possible cost.</p>
+            <p>Our mission is simple: to make quality digital education accessible to all. From AI and automation to web development, design, and digital productivity, every course focuses on real-world application rather than complex theory.</p>
+            <p>With bilingual teaching (English + Hindi) and a visual-first learning style, we turn complicated topics into simple, actionable knowledge.</p>
+            <p class="quote"><i>“At LearnVeo, learning isn’t about watching — it’s about understanding, creating, and growing.”</i><br>
+            <b> - Harshvardhan Chauhan</b></p>
+</div>
+        <footer>
+            <p>&copy; 2025 LearnVeo. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#typetxt', {
+            strings: ['More','Veo',' Coding','A.I','UI/UX','Designing','Softwares', 'Editing'],
+            typeSpeed: 90,
+            backSpeed: 90,
+            loop:true,
+        });
+        </script>
+        <script src="product.js"></script>
+</body>
+</html>

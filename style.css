@@ -1,0 +1,350 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+header{
+    width: 90%;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(25deg,rgba(236, 236, 236, 0.758),rgba(237, 237, 237, 0.752));
+    position: sticky;
+    top: 10px;
+    padding: 10px 18px;
+    border-radius: 14px;
+    backdrop-filter: blur(5px);
+    z-index: 100;
+    /* border: 3px solid white; */
+}
+header img{
+    width: 120px;
+    cursor: pointer;
+}
+header h1{
+    display: none;
+}
+nav button{
+    padding: 10px 20px;
+    border: none;
+    background: rgb(0, 0, 0);
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+nav button a{
+    text-decoration: none;
+    color: white;
+}
+button:hover{
+    background: rgb(0, 30, 255);
+}
+.hero{
+    margin-top: -70px;
+    width: 100%;
+    height: 550px;
+    background: white;
+    /* background: url(/bg.jpg); */
+/* background: #9cc3ff;
+background: linear-gradient(180deg, rgba(156, 195, 255, 1) 49%, rgba(47, 119, 186, 1) 75%, rgba(3, 0, 32, 1) 97%); */
+}
+.hero-text{
+    width: 90%;
+    margin: 40px auto 0;
+    padding-top: 150px;
+    text-align: center;
+}
+.hero-text h2{
+    font-family: "Funnel Sans", sans-serif;
+    font-size: 80px;
+}
+h2 span{
+    font-family: sans-serif;
+    font-weight: normal;
+    color: rgb(0, 30, 255);
+}
+.hero-text p{
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgb(80, 80, 80);
+}
+.hero-text button{
+    margin-top: 50px;
+    padding: 10px 20px;
+    border: none;
+    background: rgb(0, 0, 0);
+    color: white;
+    font-size: 22px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.hero-text button:hover{
+    background: rgb(0, 30, 255);
+}
+.hero-text button a{
+    text-decoration: none;
+    color: white;
+}
+.courses{
+    padding: 50px;
+    width: 100%;
+    min-height: 400px;
+    background: #030020;
+}
+.courses h3{
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    /* background: red; */
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #232323; */
+}
+.card{
+    width: 450px;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+    margin: 30px 10px;
+    border-radius: 14px;
+    transition: 0.2s;
+    padding: 20px;
+    border: 1px solid transparent;
+    
+}
+.card:hover{
+    filter: drop-shadow(4px 4px 2px rgba(0, 30, 255, 0.5));
+    border-color:rgb(0, 30, 255);
+    background-color: #000000;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgb(57, 57, 57);
+}
+.card summary{
+    margin: 15px 0px 5px;
+    font-size: 23px;
+    color:rgb(255, 255, 255);
+    font-weight: bold;  
+}
+
+.card p{
+    margin: 20px 0 10px;
+    color:rgb(168, 168, 168);
+    font-size: 16px;
+    
+}
+.price-button{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0 0;
+    gap: 5px;
+}
+i{
+    color: rgb(150, 150, 150);
+    font-size: 15px;
+}
+strong{
+    color: white;
+    font-size: 18px;
+    width: fit-content;
+}
+strike{
+    color: rgb(100, 100, 100);
+    margin-left: 10px;
+    font-weight: normal;
+    font-size: 16px;
+}
+.card button{
+    width: fit-content;
+    border: 0;
+    outline: 0;
+    background-color: white;
+    color: #191919;
+    padding: 6px 25px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+}
+.card button:hover{
+    background-color:rgb(0, 30, 255);
+    color: white;
+}
+.contact{
+    padding: 50px;
+    width: 100%;
+    min-height: 400px;
+    background: #ffffff;
+    margin-bottom: 50px;
+}
+.contact h3{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.contact form{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.contact input, .contact textarea{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact button{
+    width: 160px;
+    align-self: center;
+    padding: 10px 20px;
+    border: none;
+    background: rgb(0, 0, 0);
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.contact button:hover{
+    background: rgb(0, 30, 255);
+}
+.contact input:focus, .contact textarea:focus{
+    border-color: rgb(0, 30, 255);
+    outline: none;
+}
+.contact-info{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+    color: rgb(80, 80, 80);
+}
+.contact-info a{
+    display: block;
+    text-decoration: none;
+    color: rgb(80, 80, 80);
+    margin: 5px 20px;
+}
+.contact-info a:hover{
+    color: rgb(0, 30, 255);
+}   
+.social-media{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(80, 80, 80);
+}
+.social-media a{
+    display: block;
+    text-decoration: none;
+    color: rgb(80, 80, 80);
+    margin: 5px 20px;
+}
+.social-media a:hover{
+    color: rgb(0, 30, 255);
+}
+.about{
+    padding: 50px 50px 80px;
+    width: 100%;
+    min-height: 400px;
+    background:#030020;
+    color: white;
+    font-size: 18px;
+}
+.about h3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+.about p{
+    width: 80%;
+    margin: auto;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+.about p i{
+    color: white;
+    text-align: left;
+}
+.quote{
+    margin-top: 70px !important;
+    text-align: center;
+    font-size: 20px;
+}
+.quote b{
+    width: 100%;
+    font-size: 18px;
+    color: white;
+    text-align: right;
+}   
+footer{
+    width: 100%;
+    height: 80px;
+    background: white;
+    /* margin-top: 50px; */
+    color:#030020;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer p{
+    font-size: 16px;
+}
+
+
+@media only screen and (max-width: 600px){
+    .hero-text h2{
+        font-size: 50px;
+        
+    }
+    .courses, .contact, .about{
+        padding: 30px 0px;
+    }
+    .contact form{
+        width: 90%;
+    }
+    .cards{
+        gap: 0px;
+    }
+
+}
