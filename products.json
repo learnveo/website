@@ -1,42 +1,22 @@
 [	
-{
-                "id": 1,
-                "image": "https://ik.imagekit.io/tovuwazhze/LearnVeo/Copy%20of%20AI%20Tools_20251004_201506_0000.png?updatedAt=1761396921970",
-                "name": "Excel MasterClass",
-                "discription": "The Excel Productivity MasterClass is designed to help learners go from basic to brilliant — mastering the most powerful formulas, time-saving shortcuts, and practical tricks used by professionals around the world.",
-                "duration": "4 Hours",
-                "price": "Rs. 199/-",
-                "oldPrice": "Rs. 499/-"
-},
-	{
-                "id": 2,
-                "image": "https://ik.imagekit.io/tovuwazhze/LearnVeo/Copy%20of%20AI%20Tools_20251004_203316_0000.png?updatedAt=1761396921961",
-                "name": "PowerPoint MasterClass",
-                "discription": "LearnVeo’s PowerPoint MasterClass is your complete guide to creating stunning, professional presentations — even if you’ve never designed one before. In this course, you’ll master essential PowerPoint tools, smart shortcuts, and practical design techniques used by pros.",
-                "duration": "4 Hours",
-                "price": "Rs. 199/-",
-                "oldPrice": "499/-"
-			},
-	{
-                "id": 3,
-                "image": "https://ik.imagekit.io/tovuwazhze/LearnVeo/AI%20Tools_20251024_230151_0000.png?updatedAt=1761396920624",
-                "name": "AI Tools MasterClass",
-                "discription": "Unlock the power of Artificial Intelligence in your daily workflow. In this MasterClass, you’ll explore 10+ powerful AI tools designed to boost productivity, creativity, and efficiency. From writing and designing to research, automation, and content creation — this course helps you master the tools shaping the digital world.",
-                "duration": "4 Hours",
-                "price": "Rs. 199/-",
-                "oldPrice": "Rs. 999/-"
-			}
-			,
 	{
                 "id": 4,
                 "image": "https://ik.imagekit.io/tovuwazhze/LearnVeo/Full%20Stack%20(1).png?updatedAt=1761568534974",
-                "name": "Full Stack Development",
+                "name": "Full Stack Web Development",
                 "discription": "Build real websites from scratch with this beginner-friendly crash course. Learn the complete web development process — from designing pages with HTML and CSS, adding interactivity with JavaScript, and connecting everything to a PHP + phpMyAdmin backend.",
                 "duration": "2-3 months",
                 "price": "Rs. 2999/-",
                 "oldPrice": "Rs. 4999/-"
-			}
-			,
+			},
+            {
+                "id": 7,
+                "image": "https://ik.imagekit.io/tovuwazhze/LearnVeo/uiux.png?updatedAt=1761568535472",
+                "name": "UI/UX Design MasterClass",
+                "discription": "The UI/UX Design MasterClass by LearnVeo is built for beginners, creators, and developers who want to design digital products that look stunning and feel effortless. In this course, you’ll master the fundamentals of User Interface (UI) and User Experience (UX) design—from color theory, typography, and layout systems to wireframing, prototyping, and usability testing.",
+                "duration": "1 Week",
+                "price": "Rs. 699/-",
+                "oldPrice": "Rs. 2999/-"
+			},
 	{
                 "id": 5,
                 "image": "https://ik.imagekit.io/tovuwazhze/LearnVeo/wordpress.png?updatedAt=1761568535236",
@@ -45,5 +25,41 @@
                 "duration": "1 Month",
                 "price": "Rs. 999/-",
                 "oldPrice": "Rs. 4999/-"
+			},
+            {
+                "id": 6,
+                "image": "https://ik.imagekit.io/tovuwazhze/LearnVeo/canva.png?updatedAt=1761568535503",
+                "name": "Canva MasterClass",
+                "discription": "The Canva MasterClass by LearnVeo is your complete guide to creating professional graphics and videos — no design background required. This course is perfect for students, creators, freelancers, and business owners who want to level up their visual content skills using one of the most beginner-friendly tools online.",
+                "duration": "1 Week",
+                "price": "Rs. 499/-",
+                "oldPrice": "1999/-"
+			},
+	{
+                "id": 3,
+                "image": "https://ik.imagekit.io/tovuwazhze/LearnVeo/AI%20Tools_20251024_230151_0000.png?updatedAt=1761396920624",
+                "name": "AI Tools MasterClass",
+                "discription": "Unlock the power of Artificial Intelligence in your daily workflow. In this MasterClass, you’ll explore 10+ powerful AI tools designed to boost productivity, creativity, and efficiency. From writing and designing to research, automation, and content creation — this course helps you master the tools shaping the digital world.",
+                "duration": "3 Days",
+                "price": "Rs. 199/-",
+                "oldPrice": "Rs. 999/-"
+			},
+            {
+                "id": 1,
+                "image": "https://ik.imagekit.io/tovuwazhze/LearnVeo/Copy%20of%20AI%20Tools_20251004_201506_0000.png?updatedAt=1761396921970",
+                "name": "Excel MasterClass",
+                "discription": "The Excel Productivity MasterClass is designed to help learners go from basic to brilliant — mastering the most powerful formulas, time-saving shortcuts, and practical tricks used by professionals around the world.",
+                "duration": "3 Days",
+                "price": "Rs. 199/-",
+                "oldPrice": "Rs. 499/-"
+},
+	{
+                "id": 2,
+                "image": "https://ik.imagekit.io/tovuwazhze/LearnVeo/Copy%20of%20AI%20Tools_20251004_203316_0000.png?updatedAt=1761396921961",
+                "name": "PowerPoint MasterClass",
+                "discription": "LearnVeo’s PowerPoint MasterClass is your complete guide to creating stunning, professional presentations — even if you’ve never designed one before. In this course, you’ll master essential PowerPoint tools, smart shortcuts, and practical design techniques used by pros.",
+                "duration": "3 Days",
+                "price": "Rs. 199/-",
+                "oldPrice": "499/-"
 			}
 ]
